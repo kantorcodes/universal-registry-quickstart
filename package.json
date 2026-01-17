@@ -1,0 +1,22 @@
+{
+  "name": "universal-registry-quickstart",
+  "version": "1.0.0",
+  "description": "Quickstart for Hashgraph Online Universal Agentic Registry",
+  "type": "module",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@hashgraphonline/standards-sdk": "^0.1.146",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
